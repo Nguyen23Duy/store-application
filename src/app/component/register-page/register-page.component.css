@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color */
+}
+
+body label {
+    color: white;
+}
+.login-form h2 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200px;
+}
+.register-container {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.register-form {
+    backdrop-filter: blur(20px);
+    background: transparent;
+    padding-top: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    width: 100%;
+    max-width: 500px;
+    padding: 45px 20px 40px 30px;
+}
+
+.register-form h2 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200px;
+}
+
+.register-form input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    padding: 20px 50px 20px 20px;
+}
+
+.form-group {
+    position: relative;
+    padding: 1% 0% 1% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Adjust width as needed */
+    margin: auto;
+}
+
+.form-group #firstName{
+    width: 109%;
+    margin-left: 1%;
+}
+
+
+button[type="submit"] {
+    max-height: 100%;
+    width: 100%;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 45px;
+    margin-top: 1%;
+    padding: 20px 50px 20px 20px;
+
+}
+
+.register-form i {
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+}
